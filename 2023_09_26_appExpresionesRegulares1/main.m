@@ -12,7 +12,7 @@ int main(int argc, const char * argv[]) {
         // insert code here...
         NSLog(@"Hello, World!");
         
-        NSString *cadena1 = @"abcd abc ca db BD AC TOrreon COahuila 1 21 12 123 01010101";
+        NSString *cadena1 = @"abcd abc ca db BD AC 1 21 12 123 01010101 Torreón Coahuila, Blvd. Revolución, #1300";
         NSLog(@"Cadena: %@", cadena1);
         
         NSError *error = nil;
