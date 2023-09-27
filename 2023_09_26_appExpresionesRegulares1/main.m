@@ -22,9 +22,9 @@ int main(int argc, const char * argv[]) {
         //[cadenaPatron appendString:@"(t|c)(o)"];
         
         //[cadenaPatron appendString:@"[a-z]"];
-        //[cadenaPatron appendString:@"[^aeiou]"];
+        [cadenaPatron appendString:@"[^aeiou]"];
         //[cadenaPatron appendString:@"[a-f0-9]{1,2}"];
-        [cadenaPatron appendString:@"(0|1){8}"];
+        //[cadenaPatron appendString:@"(0|1){8}"];
         
         NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:cadenaPatron options:NSRegularExpressionCaseInsensitive error:&error];
         
